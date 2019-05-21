@@ -1,0 +1,46 @@
+@primary-color: #FFBA5A;
+@text-color: #2D283D;
+@grey-scale: #FCF9ED;
+
+body {
+    background: @primary-color;
+    color: white;
+}
+
+ul li a {
+    font-size: 1.4rem;
+
+    &:hover {
+        border-bottom: 2px solid @grey-scale;
+    }
+}
+
+button {
+    &:hover {
+        border: 3px solid white;
+    }
+}
+
+.navbar-dark .navbar-brand {
+    border: 3px solid @grey-scale;
+    padding: 0px 12px;
+    color: @primary-color;
+    background: @grey-scale;
+    border-radius: 15px;
+    line-height: 25px;
+
+    &:hover {
+        background: @primary-color;
+        border-color: @primary-color;
+    }
+}
+
+.jumbotron {
+    background: @primary-color;
+
+    button {
+        color: @primary-color;
+        background: @grey-scale;
+        box-shadow: 10px 10px 10px;
+    }
+}

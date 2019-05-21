@@ -1,0 +1,33 @@
+body {
+  background: #FFBA5A;
+  color: white;
+}
+ul li a {
+  font-size: 1.4rem;
+}
+ul li a:hover {
+  border-bottom: 2px solid #FCF9ED;
+}
+button:hover {
+  border: 3px solid white;
+}
+.navbar-dark .navbar-brand {
+  border: 3px solid #FCF9ED;
+  padding: 0px 12px;
+  color: #FFBA5A;
+  background: #FCF9ED;
+  border-radius: 15px;
+  line-height: 25px;
+}
+.navbar-dark .navbar-brand:hover {
+  background: #FFBA5A;
+  border-color: #FFBA5A;
+}
+.jumbotron {
+  background: #FFBA5A;
+}
+.jumbotron button {
+  color: #FFBA5A;
+  background: #FCF9ED;
+  box-shadow: 10px 10px 10px;
+}
