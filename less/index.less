@@ -41,9 +41,11 @@ body {
     background-attachment: fixed;
 }
 
+.no-underline {
+    text-decoration: none !important;
+}
+
 .container {
-
-
     nav {
         justify-content: space-around;
     }
@@ -54,19 +56,21 @@ body {
         #logo {
             background-color: @text-color;
             color: @primary-color;
-            padding: 10px;
+            padding: 6px 5px 5px 5px;
             border-radius: 10px;
             font-weight: bold;
-            font-size: 26px;
+            font-size: 22px;
+            line-height: 18px;
         }
 
         a {
             color: @text-color;
-            font-size: 1.8rem;
+            font-size: 1.1rem;
 
             &:hover {
                 text-decoration: underline;
             }
+
 
             &.nav-link {
                 padding: 0;
@@ -74,22 +78,22 @@ body {
         }
     }
 
-    .card {
-        width: 100%;
-        background: @primary-color;
+    .row {
+        .card {
+            width: 100%;
+            background: @primary-color;
+            min-width: 348px;
 
-        .card-body {
-            color: @text-color;
+            .card-body {
+                color: @text-color;
 
-            .card-title {}
-
-            .card-text {}
-
-            .btn {
-                background: @text-color;
-                color: @primary-color;
-                border-radius: 10px;
+                .btn {
+                    background: @text-color;
+                    color: @primary-color;
+                    border-radius: 10px;
+                }
             }
         }
+
     }
 }

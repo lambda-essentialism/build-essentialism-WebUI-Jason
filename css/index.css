@@ -29,6 +29,9 @@ body {
   background-image: url("/img/pattern.png");
   background-attachment: fixed;
 }
+.no-underline {
+  text-decoration: none !important;
+}
 .container nav {
   justify-content: space-around;
 }
@@ -38,14 +41,15 @@ body {
 .container .navbar #logo {
   background-color: #FCF9ED;
   color: #FFBA5A;
-  padding: 10px;
+  padding: 6px 5px 5px 5px;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 22px;
+  line-height: 18px;
 }
 .container .navbar a {
   color: #FCF9ED;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
 }
 .container .navbar a:hover {
   text-decoration: underline;
@@ -53,14 +57,15 @@ body {
 .container .navbar a.nav-link {
   padding: 0;
 }
-.container .card {
+.container .row .card {
   width: 100%;
   background: #FFBA5A;
+  min-width: 348px;
 }
-.container .card .card-body {
+.container .row .card .card-body {
   color: #FCF9ED;
 }
-.container .card .card-body .btn {
+.container .row .card .card-body .btn {
   background: #FCF9ED;
   color: #FFBA5A;
   border-radius: 10px;
