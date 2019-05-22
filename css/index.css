@@ -1,33 +1,67 @@
+a,
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2 {
+  font-weight: bold;
+}
+h3,
+h4 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
 body {
-  background: #FFBA5A;
-  color: white;
+  background-image: url("/img/pattern.png");
+  background-attachment: fixed;
 }
-ul li a {
-  font-size: 1.4rem;
+.container nav {
+  justify-content: space-around;
 }
-ul li a:hover {
-  border-bottom: 2px solid #FCF9ED;
+.container .navbar {
+  background-color: #FFBA5A;
 }
-button:hover {
-  border: 3px solid white;
-}
-.navbar-dark .navbar-brand {
-  border: 3px solid #FCF9ED;
-  padding: 0px 12px;
+.container .navbar #logo {
+  background-color: #FCF9ED;
   color: #FFBA5A;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.container .navbar a {
+  color: #FCF9ED;
+  font-size: 1.8rem;
+}
+.container .navbar a:hover {
+  text-decoration: underline;
+}
+.container .navbar a.nav-link {
+  padding: 0;
+}
+.container .card {
+  width: 100%;
+  background: #FFBA5A;
+}
+.container .card .card-body {
+  color: #FCF9ED;
+}
+.container .card .card-body .btn {
   background: #FCF9ED;
-  border-radius: 15px;
-  line-height: 25px;
-}
-.navbar-dark .navbar-brand:hover {
-  background: #FFBA5A;
-  border-color: #FFBA5A;
-}
-.jumbotron {
-  background: #FFBA5A;
-}
-.jumbotron button {
   color: #FFBA5A;
-  background: #FCF9ED;
-  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
 }
