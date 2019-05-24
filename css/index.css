@@ -49,9 +49,11 @@ body .no-underline {
   background: #FFBA5A;
   margin-top: 7rem;
 }
+.card {
+  min-width: 288px !important;
+}
 .card .card-body {
   width: 100%;
-  min-width: 349px;
   color: #FCF9ED;
   background: #FFBA5A;
 }
