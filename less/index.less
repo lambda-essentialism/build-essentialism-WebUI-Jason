@@ -1,118 +1,14 @@
-@primary-color: #FFBA5A;
-@text-color: #FCF9ED;
-@grey-scale: #2D283D;
-
-a,
-h1,
-h2,
-h3,
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1,
-h2 {
-    font-weight: bold;
-}
-
-h3,
-h4 {
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 70px;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-h4 {
-    font-size: 20px;
-}
+@import 'variables';
 
 body {
-    background-image: url("/img/pattern.png");
+    background-image: url(/img/pattern.png);
     background-attachment: fixed;
-}
 
-.no-underline {
-    text-decoration: none !important;
-}
-
-.container {
-    nav {
-        justify-content: space-around;
-    }
-
-    .navbar {
-        background-color: @primary-color;
-
-        #logo {
-            background-color: @text-color;
-            color: @primary-color;
-            padding: 6px 5px 5px 5px;
-            border-radius: 10px;
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 18px;
-        }
-
-        a {
-            color: @text-color;
-            font-size: 1.1rem;
-
-            &:hover {
-                text-decoration: underline;
-            }
-
-
-            &.nav-link {
-                padding: 0;
-            }
-        }
-    }
-
-    .row {
-        .card {
-            width: 100%;
-            background: @primary-color;
-            min-width: 349px;
-
-            .card-body {
-                color: @text-color;
-
-                h1 {
-                    padding-top: 116px;
-                }
-
-                h4 {
-                    text-align: right;
-
-                    a {
-                        color: @text-color;
-                        font-weight: normal;
-                        font-size: 1.1rem;
-                    }
-                }
-
-                .btn {
-                    background: @text-color;
-                    color: @primary-color;
-                    border-radius: 10px;
-                }
-            }
-        }
-
-        .aboutUs {
-            min-width: 100px !important;
-
-
-        }
+    .no-underline {
+        text-decoration: none !important;
     }
 }
+
+@import 'components/cards/cards.less';
+@import 'components/tabs/tabs.less';
+@import 'components/nav/nav.less';
