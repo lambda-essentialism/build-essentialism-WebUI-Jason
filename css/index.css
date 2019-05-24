@@ -33,13 +33,22 @@ body {
 body .no-underline {
   text-decoration: none !important;
 }
-.card {
+.sub-container {
+  max-width: 349px;
+  justify-content: center;
+}
+.col-sm-12 {
   width: 100%;
-  background: #FFBA5A;
   min-width: 349px;
+  color: #FCF9ED;
+  background: #FFBA5A;
+  margin-top: 7rem;
 }
 .card .card-body {
+  width: 100%;
+  min-width: 349px;
   color: #FCF9ED;
+  background: #FFBA5A;
 }
 .card .card-body h1 {
   padding-top: 116px;
