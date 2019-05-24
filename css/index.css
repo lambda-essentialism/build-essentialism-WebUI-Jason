@@ -37,6 +37,11 @@ body .no-underline {
   max-width: 349px;
   justify-content: center;
 }
+.meeTheTeam {
+  margin: 0 auto;
+  width: 400px;
+  flex-direction: row;
+}
 .col-sm-12 {
   width: 100%;
   min-width: 349px;
@@ -50,11 +55,11 @@ body .no-underline {
   color: #FCF9ED;
   background: #FFBA5A;
 }
+.card .card-body .card-img-bottom {
+  width: 200px;
+}
 .card .card-body h1 {
   padding-top: 116px;
-}
-.card .card-body h4 {
-  text-align: right;
 }
 .card .card-body h4 a {
   color: #FCF9ED;

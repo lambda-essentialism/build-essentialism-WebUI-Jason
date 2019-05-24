@@ -1,106 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- index.css -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- uxDesigner -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/index.css">
+    <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title>Essentialism</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Tabs.js -->
+    <script src="./components/Tabs/Tabs.js" async></script>
+
+    <title>About Us</title>
+
 </head>
 
 <body>
 
+    <nav class="navbar fixed-top shadow-lg p-3 mb-5 rounded ">
+        <a class="navbar-brand no-underline" id="logo" href="#">ES<br>SE</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="https://essentialismapp.netlify.com/">Sign In</a>
+        <a class="nav-link" href="#">Join</a>
+    </nav>
+
     <div class="container">
-
-        <nav class="navbar fixed-top shadow-lg p-3 mb-5 rounded ">
-            <a class="navbar-brand no-underline" id="logo" href="#">ES<br>SE</a>
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About Us</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-            <a class="nav-link" href="#">Sign In</a>
-            <a class="nav-link" href="#">Join</a>
-        </nav>
-
-
         <div class="row">
-
-            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm">
+            <div class="shadow-lg p-3 mb-5 rounded col-sm-12 aboutUs">
                 <div class="card-body">
-                    <h2 class="card-title">Jason Prince</h2>
-
-                    <h4 class="card-text">Web UI
-                        <i class="fas fa-code"></i>
-                    </h4>
-
-                    <h4 class="card-text">
-                        <a href="https://github.com/EndersGame1977">EndersGame1977</a>
-                        <i class="fab fa-github"></i>
-                    </h4>
-
-                    <h4 class="card-text">
-                        <a href="https://goo.gl/maps/z8hgsGX6c6sGxMkg8">Hurricane, UT</a>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </h4>
-
+                    <div class="card-title">
+                        <h1 class="text-center">Meet The Team</h1>
+                    </div>
+                    <div class="card-text">
+                        <div class="tabs">
+                            <div class="navbar topics">
+                                <div data-tab="all" class="tab active-tab nav-link">ALL</div>
+                                <div data-tab="teamLead" class="tab nav-link">Team Lead</div>
+                                <div data-tab="webUIDeveloper" class="tab nav-link">Web UI Developer</div>
+                                <div data-tab="frontEndArchitect" class="tab nav-link">Front End Architect</div>
+                                <div data-tab="backEndArchitect" class="tab nav-link">Back End Architect</div>
+                                <div data-tab="uxDesigner" class="tab nav-link">UX Designer</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img class="card-img-top" src="/img/Jason.png" alt="Jason">
             </div>
-
-            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm">
-                <div class="card-body">
-                    <h2 class="card-title">Noble Obioma</h2>
-                    <h3 class="card-text">Web UI</h3>
-                </div>
-                <img class="card-img-top" src="/img/Noble.PNG" alt="Noble">
-            </div>
-
-            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm">
-                <div class="card-body">
-                    <h2 class="card-title">Eileen Cuevas</h2>
-                    <h3 class="card-text">Team Lead</h3>
-                </div>
-                <img class="card-img-top" src="/img/Eileen.PNG" alt="Eileen">
-            </div>
-
-            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm">
-                <div class="card-body">
-                    <h2 class="card-title">Marlene Salangsang</h2>
-                    <h3 class="card-text">UX Design</h3>
-                </div>
-                <img class="card-img-top" src="/img/Marlene.PNG" alt="Marlene">
-            </div>
-
-            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm">
-                <div class="card-body">
-                    <h2 class="card-title">Raymond Pugh Jr.</h2>
-                    <h3 class="card-text">Front End</h3>
-                </div>
-                <img class="card-img-top" src="/img/Raymond.jpg" alt="Raymond">
-            </div>
-
-            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm">
-                <div class="card-body">
-                    <h2 class="card-title">Garrett Weems</h2>
-                    <h3 class="card-text">Back End</h3>
-                </div>
-                <img class="card-img-top" src="/img/Garrett.jpg" alt="Garrett">
-            </div>
-
         </div>
 
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-            crossorigin="anonymous"></script>
+        <div class="meeTheTeam">
+
+            <div class="card" data-tab="webUIDeveloper">
+                <div class="card-body text-center">
+                    <h2>Jason Prince</h2>
+                    <h4>Web UI Developer</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Jason.png" alt="Jason">
+                </div>
+            </div>
+
+            <div class="card" data-tab="teamLead">
+                <div class="card-body text-center">
+                    <h2>Eileen Cuevas</h2>
+                    <h4>Team Lead</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Eileen.PNG" alt="Eileen">
+                </div>
+            </div>
+
+            <div class="card" data-tab="webUIDeveloper">
+                <div class="card-body text-center">
+                    <h2>Noble Obioma</h2>
+                    <h4>Web UI Developer</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Noble.PNG" alt="Noble">
+                </div>
+            </div>
+
+            <div class="card" data-tab="uxDesigner">
+                <div class="card-body text-center">
+                    <h2>Marlene Salangsang</h2>
+                    <h4>UX Designer</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Marlene.PNG" alt="Marlene">
+                </div>
+            </div>
+
+            <div class="card" data-tab="frontEndArchitect">
+                <div class="card-body text-center">
+                    <h2>Raymond Pugh Jr.</h2>
+                    <h4>Front End Architect</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Raymond.jpg" alt="Raymond">
+                </div>
+            </div>
+
+            <div class="card" data-tab="backEndArchitect">
+                <div class="card-body text-center">
+                    <h2>Garrett Weems</h2>
+                    <h4>Back End Architect</h4>
+                    <a class="fab fa-github" href="https://github.com/EndersGame1977"></a>
+                    <img class="card-img-top" src="/img/Garrett.jpg" alt="Garrett">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
