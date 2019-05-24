@@ -1,0 +1,30 @@
+nav {
+    justify-content: space-around;
+
+    &.navbar {
+        background-color: @primary-color;
+
+        #logo {
+            background-color: @text-color;
+            color: @primary-color;
+            padding: 6px 5px 5px 5px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 18px;
+        }
+
+        a {
+            color: @text-color;
+            font-size: 1.1rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &.nav-link {
+                padding: 0;
+            }
+        }
+    }
+}

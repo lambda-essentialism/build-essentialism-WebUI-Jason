@@ -1,3 +1,4 @@
+p,
 a,
 h1,
 h2,
@@ -26,19 +27,43 @@ h4 {
   font-size: 20px;
 }
 body {
-  background-image: url("/img/pattern.png");
+  background-image: url(/img/pattern.png);
   background-attachment: fixed;
 }
-.no-underline {
+body .no-underline {
   text-decoration: none !important;
 }
-.container nav {
+.card {
+  width: 100%;
+  background: #FFBA5A;
+  min-width: 349px;
+}
+.card .card-body {
+  color: #FCF9ED;
+}
+.card .card-body h1 {
+  padding-top: 116px;
+}
+.card .card-body h4 {
+  text-align: right;
+}
+.card .card-body h4 a {
+  color: #FCF9ED;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+.card .card-body .btn {
+  background: #FCF9ED;
+  color: #FFBA5A;
+  border-radius: 10px;
+}
+nav {
   justify-content: space-around;
 }
-.container .navbar {
+nav.navbar {
   background-color: #FFBA5A;
 }
-.container .navbar #logo {
+nav.navbar #logo {
   background-color: #FCF9ED;
   color: #FFBA5A;
   padding: 6px 5px 5px 5px;
@@ -47,40 +72,13 @@ body {
   font-size: 22px;
   line-height: 18px;
 }
-.container .navbar a {
+nav.navbar a {
   color: #FCF9ED;
   font-size: 1.1rem;
 }
-.container .navbar a:hover {
+nav.navbar a:hover {
   text-decoration: underline;
 }
-.container .navbar a.nav-link {
+nav.navbar a.nav-link {
   padding: 0;
-}
-.container .row .card {
-  width: 100%;
-  background: #FFBA5A;
-  min-width: 349px;
-}
-.container .row .card .card-body {
-  color: #FCF9ED;
-}
-.container .row .card .card-body h1 {
-  padding-top: 116px;
-}
-.container .row .card .card-body h4 {
-  text-align: right;
-}
-.container .row .card .card-body h4 a {
-  color: #FCF9ED;
-  font-weight: normal;
-  font-size: 1.1rem;
-}
-.container .row .card .card-body .btn {
-  background: #FCF9ED;
-  color: #FFBA5A;
-  border-radius: 10px;
-}
-.container .row .aboutUs {
-  min-width: 100px !important;
 }
