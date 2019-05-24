@@ -2,77 +2,186 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Font Awesom -->
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/index.css">
-
-    <!-- Title -->
     <title>Essentialism</title>
 </head>
 
 <body>
-    <div class="container-fluid ">
-        <nav class="navbar navbar-expand-sm navbar-dark ">
-            <a class="navbar-brand " href="#">ES<br>SE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarXs">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="collapsingNavbarXs">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Join</a>
-                    </li>
-                </ul>
-            </div>
+
+    <div class="container">
+
+        <nav class="navbar fixed-top shadow-lg p-3 mb-5 rounded ">
+            <a class="navbar-brand no-underline" id="logo" href="#">ES<br>SE</a>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#">Sign In</a>
+            <a class="nav-link" href="#">Join</a>
         </nav>
 
-        <!-- Jumbotron -->
-        <div class="jumbotron jumbotron-fluid    ">
-            <div class="container ">
-                <img class="float-left" src="http://via.placeholder.com/200" alt="">
-                <h1 class="display-4">Why Essentialism?</h1>
-                <p class="lead">Essentialism: the disciplined pursuit of less, has been around for centuries as a way of
-                    simplifying our life in order to excel in the areas of our life that matter most.</p>
+
+        <div class="row" id="aboutUs">
+
+            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Jason Prince</h2>
+
+                    <h4 class="card-text">Web UI
+                        <i class="fas fa-code"></i>
+                    </h4>
+
+                    <h4 class="card-text">
+                        <a href="https://github.com/EndersGame1977">EndersGame1977</a>
+                        <i class="fab fa-github"></i>
+                    </h4>
+
+                    <h4 class="card-text">
+                        <a href="https://goo.gl/maps/z8hgsGX6c6sGxMkg8">Hurricane, UT</a>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </h4>
+
+                </div>
+                <img class="card-img-top" src="/img/Jason.png" alt="Jason">
             </div>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn">Join the Pursuit</button>
+
+            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Noble Obioma</h2>
+                    <h3 class="card-text">Web UI</h3>
+                </div>
+                <img class="card-img-top" src="/img/Noble.PNG" alt="Noble">
             </div>
+
+            <div class="card shadow-lg p-3 mb-5 mt-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Eileen Cuevas</h2>
+                    <h3 class="card-text">Team Lead</h3>
+                </div>
+                <img class="card-img-top" src="/img/Eileen.PNG" alt="Eileen">
+            </div>
+
+            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Marlene Salangsang</h2>
+                    <h3 class="card-text">UX Design</h3>
+                </div>
+                <img class="card-img-top" src="/img/Marlene.PNG" alt="Marlene">
+            </div>
+
+            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Raymond Pugh Jr.</h2>
+                    <h3 class="card-text">Front End</h3>
+                </div>
+                <img class="card-img-top" src="/img/Raymond.jpg" alt="Raymond">
+            </div>
+
+            <div class="card shadow-lg p-3 mb-5 mx-3 rounded col-sm aboutUs">
+                <div class="card-body">
+                    <h2 class="card-title">Garrett Weems</h2>
+                    <h3 class="card-text">Back End</h3>
+                </div>
+                <img class="card-img-top" src="/img/Garrett.jpg" alt="Garrett">
+            </div>
+
         </div>
 
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Jason Prince
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h2 class="card-title">Jason Prince</h2>
+
+                        <h4 class="card-text">Web UI
+                            <i class="fas fa-code"></i>
+                        </h4>
+
+                        <h4 class="card-text">
+                            <a href="https://github.com/EndersGame1977">EndersGame1977</a>
+                            <i class="fab fa-github"></i>
+                        </h4>
+
+                        <h4 class="card-text">
+                            <a href="https://goo.gl/maps/z8hgsGX6c6sGxMkg8">Hurricane, UT</a>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </h4>
+
+                    </div>
+                    <img class="card-img-top" src="/img/Jason.png" alt="Jason">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                    of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                    of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
         crossorigin="anonymous"></script>
 </body>
 
