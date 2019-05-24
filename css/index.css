@@ -60,13 +60,27 @@ body {
 .container .row .card {
   width: 100%;
   background: #FFBA5A;
-  min-width: 348px;
+  min-width: 349px;
 }
 .container .row .card .card-body {
   color: #FCF9ED;
+}
+.container .row .card .card-body h1 {
+  padding-top: 116px;
+}
+.container .row .card .card-body h4 {
+  text-align: right;
+}
+.container .row .card .card-body h4 a {
+  color: #FCF9ED;
+  font-weight: normal;
+  font-size: 1.1rem;
 }
 .container .row .card .card-body .btn {
   background: #FCF9ED;
   color: #FFBA5A;
   border-radius: 10px;
+}
+.container .row .aboutUs {
+  min-width: 100px !important;
 }
